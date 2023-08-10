@@ -1,0 +1,10 @@
+# HOW TO START THE BOT #
+1. Go to "src/config" folder and open .env
+2. Insert ID of the server from which you want to scrape the member list (Bot should be a member)
+    -> Go to your Discord User Settings -> Advanced and turn on Developer Mode
+    -> Close settings and right click server icon & click "Copy Server ID" and paste it in the "GID" in .env
+3. Insert Bot token in "TOKEN" in .env file.
+4. Insert Owner ID from Discord by going to a random server, right clicking your user and copying the User ID.
+5. Make sure you are in the Project root directory and run "pip install -r requirements.txt"
+6. Go to main.py and run the file.
+7. A file with the [FNAME] you put in the .env will be generated.
